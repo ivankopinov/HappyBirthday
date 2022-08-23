@@ -3,8 +3,8 @@ const buttonWoman = document.querySelector(".header__button-gender_woman");
 const body = document.body;
 
 const state = {
-    gender: body.classList.contains('woman') ? 'woman' : 'man'
-}
+  gender: body.classList.contains("woman") ? "woman" : "man",
+};
 
 const changeToMan = () => {
   if (state.gender !== "man") {
@@ -22,4 +22,3 @@ const changeToWoman = () => {
 };
 buttonMan.addEventListener("click", changeToMan);
 buttonWoman.addEventListener("click", changeToWoman);
-

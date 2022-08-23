@@ -17,10 +17,10 @@
 }
 
 @font-face {
-  font-family: "Caveat";
-  font-weight: 400;
-  src: local("Caveat");
-  src: url(../fonts/Caveat-Regular.ttf);
+  font-family: "Open Sans";
+  font-weight: 700;
+  src: local("Open Sans");
+  src: url(../fonts/OpenSans-Bold.ttf);
 }
 
 html {
@@ -155,11 +155,12 @@ ul {
   line-height: 1.8;
 }
 .woman .card__text {
-  font-family: "Caveat";
+  font-family: "Bad Script";
 }
 
 .man .card__text {
-  font-family: "Bad Script";
+  font-family: "Open Sans";
+  font-weight: 700;
 }
 
 @media (max-width: 880px) {
