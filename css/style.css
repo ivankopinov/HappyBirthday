@@ -34,11 +34,11 @@ body {
   flex-direction: column;
   height: 100vh;
 }
-.woman {
+.women {
   background-color: #fff1f8;
 }
 
-.man {
+.men {
   background-color: #eff9fe;
 }
 button {
@@ -98,11 +98,11 @@ ul {
   margin-right: 30px;
 }
 
-.woman .header__button-change {
-  background: #c300c7;
+.women .header__button-change {
+  background-color: #c300c7;
 }
-.man .header__button-change {
-  background: #1178b2;
+.men .header__button-change {
+  background-color: #1178b2;
 }
 
 .header__button-change:last-child {
@@ -126,17 +126,17 @@ ul {
   margin-right: 0;
 }
 
-.header__button-gender_man {
+.header__button-gender_men {
   background-image: url(../img/ri_men-line.svg);
 }
 
-.header__button-gender_woman {
+.header__button-gender_women {
   background-image: url(../img/ri_women-line.svg);
 }
-.man .header__button-gender_man {
+.men .header__button-gender_men {
   border-color: #1178b2;
 }
-.woman .header__button-gender_woman {
+.women .header__button-gender_women {
   border-color: #c300c7;
 }
 .card {
@@ -163,14 +163,13 @@ ul {
   top: 50%;
   transform: translate(-50%, -50%);
   font-size: max(3em, min(calc(100vw * 3 / 140), 6em));
-
   line-height: 1.8;
 }
-.woman .card__text {
+.women .card__text {
   font-family: "Bad Script";
 }
 
-.man .card__text {
+.men .card__text {
   font-family: "Open Sans";
   font-weight: 700;
 }
@@ -202,10 +201,10 @@ ul {
 .footer {
   padding: 17px 0;
 }
-.woman .footer__link {
+.women .footer__link {
   color: #c300c7;
 }
-.man .footer__link {
+.men .footer__link {
   color: #1178b2;
 }
 .footer__contacts {
